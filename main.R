@@ -3,7 +3,7 @@ library(dplyr)
 library(rtweet)
 
 ## call my token script to interact with twitter
-source("~/R/tweetr/env.r")
+source("env.r")
 
 ## get my feed
 feed <- get_my_timeline(n = 1e10)
